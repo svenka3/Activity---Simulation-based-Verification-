@@ -1,0 +1,18 @@
+############ Commands used to generate simulation waveform using the ICARUS Verilog ############
+iverilog -Wall -o test fsm.v fsm_tb.v
+vvp test
+gtkwave fsm_tb.vcd
+
+############ Commands used to compute Line Coverage using the COVERED tool ############
+covered score -t fsm_tb -v fsm_tb.v -v fsm.v -vcd fsm_tb.vcd -o fsm_tb.cdd
+-t top-level module
+-v filename
+Name of specific Verilog file to score.
+-vcd filename
+Name of VCD dumpfile to score design with
+-o database
+Name of database to write coverage information
+
+covered report -d v fsm.cdd
+to obtain the module-based verbose report
+

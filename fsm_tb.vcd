@@ -1,0 +1,143 @@
+$date
+	Tue Feb 22 22:49:52 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module fsm_tb $end
+$var wire 2 ! Z [1:0] $end
+$var reg 1 " A $end
+$var reg 1 # clock $end
+$var reg 1 $ reset $end
+$scope module top $end
+$var wire 1 " A $end
+$var wire 2 % Z [1:0] $end
+$var wire 1 # clock $end
+$var wire 1 $ reset $end
+$var reg 2 & next_state [1:0] $end
+$var reg 2 ' present_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b11 &
+b0 %
+1$
+1#
+0"
+b0 !
+$end
+#10
+0#
+#20
+b10 &
+b11 !
+b11 %
+b11 '
+1#
+0$
+#30
+0#
+#40
+b0 !
+b0 %
+b0 '
+b1 &
+1#
+1"
+#50
+0#
+#60
+b10 &
+b1 !
+b1 %
+b1 '
+1#
+#70
+0#
+#80
+b11 &
+b10 !
+b10 %
+b10 '
+1#
+#90
+0#
+#100
+b0 &
+b11 !
+b11 %
+b11 '
+1#
+#110
+0#
+#120
+b1 &
+b0 !
+b0 %
+b0 '
+1#
+#130
+0#
+#140
+b11 !
+b11 %
+b11 '
+b10 &
+1#
+0"
+#150
+0#
+#160
+b1 &
+b10 !
+b10 %
+b10 '
+1#
+#170
+0#
+#180
+b0 &
+b1 !
+b1 %
+b1 '
+1#
+#190
+0#
+#200
+b11 &
+b0 !
+b0 %
+b0 '
+1#
+#210
+0#
+#220
+b10 &
+b11 !
+b11 %
+b11 '
+1#
+#230
+0#
+#240
+b0 !
+b0 %
+b0 '
+b1 &
+1#
+1"
+#250
+0#
+#260
+1#
+1$
+#270
+0#
+#280
+1#
